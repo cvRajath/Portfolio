@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/67a22ce5af.js" crossorigin="anonymous"></script>
+   <link rel="icon" href="https://img.icons8.com/?size=100&id=AfM2kzPzTz6Q&format=png&color=000000">
+   
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="IMG.pf/r-abstract-initials-letter-monogram-vector-logo-design_619996-81-removebg-preview.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Hello, my name is Rajath c v </p>
+                <h1>I'm <span class="typing"> Rajath</span></h1>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG.pf/IMG_8707-03234.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I'm graduate with a B.Com degree, passionate about sports, and deeply enjoys the art of designing. And brings a blend of analytical thinking from my academic background and creativity from my hobbies. I'm thrives in environments that challenge and me problem-solving skills while also allowing him to express my artistic side through design. I'm dedication to sports reflects i disciplined nature, while i'm love for designing showcases my innovative spirit. I'm a someone who values both structure and creativity in my pursuits, making me a dynamic and well-rounded individual.</p>
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links onclick" onclick=" opentab('Experience')">Projects</p>
+                    <p class="tab-links onclick" onclick=" opentab('Education')">Education</p>
+                    
+                  </div>
+                  <div class="tab-contents active-tab" id="Skills">
+                        <button class="btn-skill">HTML</button>
+                        <button class="btn-skill">CSS</button>
+                        <button class="btn-skill">JAVA SCRIPT</button>
+                        <button class="btn-skill">BOOTSTRAP</button>
+                        <button class="btn-skill">TAILWIND CSS</button>
+                  </div>
+                  <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><a href="https://cvrajath.github.io/bank_task2.0/">
+                            <button type="button" class="btn btn-dark">Bank Task Demo</button>
+                          </a></li>
+                        <li> <a href="https://cvrajath.github.io/star_buks-demo/">
+                            <button type="button" class="btn btn-dark">Starbucks  Demo</button>
+                        </a></li>
+                        <li><a href="https://cvrajath.github.io/Paytm_New/">
+                            <button type="button" class="btn btn-dark">Paytm front Demo</button>
+                          </a></li>
+
+
+<!-- hi -->
+
+
+
+
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="Education">
+                    <ul>
+                       
+                        <li><span>2024</span><br>Full Stack Developing training at BridgeOn</li>
+                        <li><span>2024</span><br>B.com Computer Application from MG University</li>
+                      
+                    </ul>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------------- -->
+     <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-aws"></i>
+                    <h2>Web design</h2>
+                    <a href="https://www.wix.com/website/templates">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-button"></i>
+                    <h2>App design</h2>
+                    <a href="https://uizard.io/templates/mobile-app-templates/">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI/UX design</h2>
+                    <a href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">learn more</a>
+                </div>
+            </div>
+        </div>
+
+     </div>
+   <!-- ------------------------------------contact---------------------------------------------------------------- -->
+   
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> rajathcv001@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 9207267448</p>
+                <div class="social-icons">                                    
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/cvRajath"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rajath-cv-a9a529311/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/?lang=en-in"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="IMG.pf/CV_2023041222361882.pdf" download class="btn btn2" style="text-decoration: none;">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <!-- <form name="submit-to-google-sheet"> -->
+                   
+                        <a class="form" >
+                        <input type="text" class="hh" id="name" placeholder="Your Name" required >
+                        <input type="email" id="email" class="hh" placeholder="Your Email" required>
+                        <input type="message"  class="hh"id="message" row="6" placeholder="Your Message">
+                        <button type="submit" class="btn btn2" onclick="sentMail()">Submit</button>
+                  
+                <!-- </form> --></a>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="font-size:x-small;">Created by<span> Rajath c v </span>|| Thank You<i class="fa-solid fa-heart"></i> for watching</p>
+    </div>
+   </div>
+   
+   
+   
+   <!-- ............................js................................................ -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="pf.js"></script>
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+
+
+  <!-- ----------------------email----------------------------------------- -->
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "xIahq7E1SAeo4qXPR",
+      });
+   })();
+</script>
+
+
+
+</body>
+</html>
